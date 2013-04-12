@@ -46,6 +46,10 @@ You can use the block you pass in with the button title to perform any action, i
     [alert setCancelButtonTitle:@"Cancel" block:^{
 	    alert.dismissalStyle = AHAlertViewDismissalStyleTumble;
     }];
+    
+## ARC Compatibility
+
+This library is ARC-only, because you should be using ARC. Are you seriously not using ARC yet?
 
 ## TODO
 
